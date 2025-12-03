@@ -55,7 +55,7 @@ export const Gallery: React.FC = () => {
 
   const galleryItems: GalleryItemProps[] = [
     {
-      src: "/image/anh2.jpg",
+      src: "/public/image/anh2.jpg",
       title: "Tập huấn ứng dụng AI cho doanh nghiệp",
       location: "Quảng Trị",
       date: "May 2025",
@@ -63,7 +63,7 @@ export const Gallery: React.FC = () => {
       size: "lg"
     },
     {
-      src: "/image/anh6.jpeg",
+      src: "/public/image/anh6.jpeg",
       title: "Automation Coaching",
       location: "Private Studio",
       date: "Nov 2024",
@@ -71,7 +71,7 @@ export const Gallery: React.FC = () => {
       size: "sm"
     },
     {
-      src: "/image/anh5.jpg",
+      src: "/public/image/anh5.jpg",
       title: "Đào tạo AI cho Trường Cao đẳng nghề Bộ Quốc Phòng",
       location: "Nam Định",
       date: "Nov 2025",
@@ -79,7 +79,7 @@ export const Gallery: React.FC = () => {
       size: "lg"
     },
     {
-      src: "/image/anh8.jpeg",
+      src: "/public/image/anh8.jpeg",
       title: "Chiến Lược Số",
       location: "Hà Nội",
       date: "Jan 2024",
@@ -87,7 +87,7 @@ export const Gallery: React.FC = () => {
       size: "sm"
     },
     {
-      src: "/image/anh7.jpeg",
+      src: "/public/image/anh7.jpeg",
       title: "AI Summit",
       location: "White Palace",
       date: "Feb 2024",
@@ -95,7 +95,7 @@ export const Gallery: React.FC = () => {
       size: "lg"
     },
     {
-      src: "/image/anh3.jpg",
+      src: "/public/image/anh3.jpg",
       title: "Đào tạo sử dụng công cụ AI",
       location: "Quảng Trị",
       date: "Mar 2024",

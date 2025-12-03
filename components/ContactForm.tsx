@@ -127,7 +127,7 @@ export const ContactForm: React.FC = () => {
                >
                   <div className="absolute inset-0 border border-gold/20 translate-x-4 translate-y-4 z-0 rounded-3xl"></div>
                   <img
-                     src="/image/anh1.jpeg"
+                     src="/public/image/anh1.jpeg"
                      alt="Consultation Art"
                      className="relative z-10 w-full h-full object-cover filter brightness-100 contrast-100"
                   />

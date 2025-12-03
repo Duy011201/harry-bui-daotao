@@ -57,7 +57,7 @@ export const Hero: React.FC = () => {
             className="relative z-10 h-full w-full flex items-end justify-center"
           >
             <img
-              src="/image/anh1.jpeg"
+              src="/public/image/anh1.jpeg"
               alt="Harry Bui Portrait"
               className="h-full object-contain drop-shadow-2xl mask-image-gradient-b"
               style={{ maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)' }}
