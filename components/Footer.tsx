@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
             <div className="md:col-span-1">
                <h2 className="font-serif text-3xl text-gold mb-6">HARRY BUI</h2>
                <p className="font-sans text-xs text-stone-400 leading-relaxed">
-                  Tiên phong trong lĩnh vực đào tạo và tư vấn giải pháp AI cho doanh nghiệp.
+                  Tiên phong trong lĩnh vực đào tạo, chuyển đổi số tư vấn giải pháp AI cho doanh nghiệp.
                </p>
             </div>
 

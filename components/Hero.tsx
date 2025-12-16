@@ -35,7 +35,7 @@ export const Hero: React.FC = () => {
             </h1>
 
             <p className="font-sans text-stone-600 text-lg md:text-xl max-w-2xl leading-relaxed mb-10">
-              Giúp doanh nghiệp ứng dụng <span className="font-bold text-ink">AI</span> và <span className="font-bold text-ink">Tự động hóa</span> để tối ưu vận hành, đột phá hiệu suất và dẫn đầu thị trường.
+              Giúp doanh nghiệp ứng dụng <span className="font-bold text-ink">AI</span> và <span className="font-bold text-ink">Tự động hóa</span> để tối ưu vận hành, đột phá hiệu suất dẫn đầu thị trường.
             </p>
           </motion.div>
         </motion.div>
