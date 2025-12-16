@@ -7,7 +7,7 @@ export const Hero: React.FC = () => {
   const y1 = useTransform(scrollY, [0, 500], [0, 100]);
   const opacity = useTransform(scrollY, [0, 300], [1, 0]);
 
-  const brands = ["FPT", "VIETTEL", "Vinamilk", "VinGroup", "BIDV"];
+  const brands = ["VIETTEL", "Vinamilk", "VinGroup", "BIDV", "FPT"];
 
   return (
     <section id="about" className="relative min-h-screen w-full overflow-hidden bg-cream flex flex-col pt-32 md:pt-0" style={{ paddingTop: "80px" }}>
@@ -57,7 +57,7 @@ export const Hero: React.FC = () => {
             className="relative z-10 h-full w-full flex items-end justify-center"
           >
             <img
-              src="/public/image/anh1.jpeg"
+              src="/image/anh1.jpeg"
               alt="Harry Bui Portrait"
               className="h-full object-contain drop-shadow-2xl mask-image-gradient-b"
               style={{ maskImage: 'linear-gradient(to bottom, black 80%, transparent 100%)' }}

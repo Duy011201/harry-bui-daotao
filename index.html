@@ -15,6 +15,15 @@
     tailwind.config = {
       theme: {
         extend: {
+          keyframes: {
+            marquee: {
+              '0%': { transform: 'translateX(0)' },
+              '100%': { transform: 'translateX(-50%)' },
+            }
+          },
+          animation: {
+            marquee: 'marquee 25s linear infinite',
+          },
           colors: {
             cream: '#FAFAF9', // Stone 50 - Main Background
             ink: '#1C1917', // Stone 900 - Main Text
