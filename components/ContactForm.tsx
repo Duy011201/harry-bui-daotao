@@ -114,7 +114,7 @@ export const ContactForm: React.FC = () => {
       };
 
       try {
-         const response = await fetch('https://n8n.ainova.vn/webhook-test/f989a4af-66b7-46d2-8dfd-bf86a5b92767', {
+         const response = await fetch('https://n8n.ainova.vn/webhook/f989a4af-66b7-46d2-8dfd-bf86a5b92767', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload),
