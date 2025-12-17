@@ -23,7 +23,7 @@ export const Footer: React.FC = () => {
                      <Phone size={16} /> (+84) 0923 896 89
                   </li>
                   <li className="flex items-center gap-3 text-stone-400 text-sm hover:text-gold transition-colors cursor-pointer">
-                     <Mail size={16} /> buitiepbds@gmail.com
+                     <Mail size={16} /> tiepbui.ainova@gmail.com
                   </li>
                   <li className="flex items-center gap-3 text-stone-400 text-sm hover:text-gold transition-colors cursor-pointer">
                      <MapPin size={16} /> Tầng 6, Số 35 Ngõ 570 Kim Giang, Phường Thanh Liệt, Quận Hoàng Mai, TP Hà Nội
