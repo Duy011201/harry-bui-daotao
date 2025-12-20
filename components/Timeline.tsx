@@ -9,7 +9,7 @@ const AchievementItem: React.FC<{ number: string; label: string; desc: string; d
     transition={{ duration: 0.8, delay }}
     className="group text-center p-6 border border-stone-200 bg-white hover:border-gold/30 transition-all duration-500 rounded-3xl shadow-sm hover:shadow-lg"
   >
-    <h3 className="font-serif text-5xl md:text-6xl text-gold mb-4 group-hover:scale-110 transition-transform duration-500">{number}</h3>
+    <h3 className="font-serif text-4xl md:text-6xl text-gold mb-4 group-hover:scale-110 transition-transform duration-500">{number}</h3>
     <div className="w-8 h-[1px] bg-stone-200 mx-auto mb-4 group-hover:w-16 group-hover:bg-gold transition-all duration-500"></div>
     <p className="font-sans text-xs font-bold uppercase tracking-widest text-ink mb-2">{label}</p>
     <p className="font-sans text-xs text-stone-500 font-light">{desc}</p>
@@ -20,7 +20,7 @@ export const Timeline: React.FC = () => {
   const achievements = [
     { number: "500+", label: "Học Viên", desc: "Đã tốt nghiệp" },
     { number: "50+", label: "Doanh Nghiệp", desc: "Được tư vấn & Đào tạo" },
-    { number: "100+", label: "Quy Trình", desc: "Được tự động hóa" },
+    { number: "100+", label: "Quy Trình", desc: "Tự động hóa" },
     { number: "5000+", label: "Giờ Đào Tạo", desc: "Thực chiến AI" }
   ];
 

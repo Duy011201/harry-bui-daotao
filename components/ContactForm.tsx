@@ -174,7 +174,7 @@ export const ContactForm: React.FC = () => {
                 >
                    <div className="absolute inset-0 border border-gold/20 translate-x-4 translate-y-4 z-0 rounded-3xl"></div>
                    <img
-                       src="/image/anh1.jpeg" // Đảm bảo đường dẫn ảnh đúng
+                       src="/image/anh1.jpeg"
                        alt="Consultation Art"
                        className="relative z-10 w-full h-full object-cover filter brightness-100 contrast-100"
                    />
@@ -187,7 +187,7 @@ export const ContactForm: React.FC = () => {
                  whileInView={{ opacity: 1, x: 0 }}
                  viewport={{ once: true }}
                  transition={{ duration: 0.8, delay: 0.2 }}
-                 className="lg:col-span-7 bg-white/60 backdrop-blur-2xl border border-white/40 p-8 md:p-12 relative shadow-2xl rounded-3xl overflow-hidden group"
+                 className="lg:col-span-7 bg-white/60 backdrop-blur-2xl border border-white/40 p-8 md:p-12 relative shadow-2xl rounded-3xl overflow-hidden group mt-10"
              >
                 <div className="absolute inset-0 opacity-[0.05] pointer-events-none bg-[url('https://grainy-gradients.vercel.app/noise.svg')] mix-blend-overlay"></div>
                 <div className="absolute -top-20 -right-20 w-64 h-64 rounded-full blur-[80px] group-hover:text-white transition-colors duration-1000"></div>
